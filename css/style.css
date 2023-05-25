@@ -26,6 +26,13 @@ main p:first-child {
     padding: 25px 0;
 }
 
+.clearfix [
+    content:"";
+    display: table
+    
+    
+]
+
 .container {
     border: 1px solid black;
     max-width: 1500px;
@@ -37,8 +44,12 @@ main p:first-child {
     width: 33%;
     height: 100px;
     margin-bottom: 25px;
-    display: inline-block;
+    float: left;
     background-color: #0F0E17;
+}
+
+.box {
+    padding: 20px 0px;
 }
 
 div img:only-of-type {
@@ -48,7 +59,9 @@ div img:only-of-type {
 }
 
 span {
+    float: left;
     margin-top: 20px;
+    
 }
 
 h4 {
