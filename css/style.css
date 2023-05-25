@@ -29,7 +29,42 @@ main p:first-child {
 .container {
     border: 1px solid black;
     max-width: 1500px;
-    height: 300px;
+    height: auto;
     margin: 25px 0;
+}
+
+.container-member {
+    width: 33%;
+    height: 100px;
+    margin-bottom: 25px;
+    display: inline-block;
+    background-color: #0F0E17;
+}
+
+div img:only-of-type {
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+span {
+    margin-top: 20px;
+}
+
+h4 {
+    color: white;
+}
+
+span p {
+    color: white;
+}
+
+span a {
+    text-decoration: none;
+    color: rgb(74, 187, 243);
+}
+
+span a:hover {
+    color: rgb(134, 255, 255);
 }
 
