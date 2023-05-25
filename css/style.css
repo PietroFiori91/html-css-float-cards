@@ -26,43 +26,45 @@ main p:first-child {
     padding: 25px 0;
 }
 
-.clearfix [
-    content:"";
-    display: table
-    
-    
-]
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .container {
     border: 1px solid black;
     max-width: 1500px;
     height: auto;
-    margin: 25px 0;
+    margin: auto;
+}
+
+.box {
+    max-width: 33.3%;
+    width: 100%;
+    float: left;
+    padding: 0 15px;
 }
 
 .container-member {
-    width: 33%;
     height: 100px;
-    margin-bottom: 25px;
+    padding: px 5px;
     float: left;
     background-color: #0F0E17;
 }
 
-.box {
-    padding: 20px 0px;
+.description {
+    float: left;
+    margin-top: 20px;
 }
+
 
 div img:only-of-type {
     height: 100px;
-    width: auto;
     float: left;
 }
 
-span {
-    float: left;
-    margin-top: 20px;
-    
-}
 
 h4 {
     color: white;
