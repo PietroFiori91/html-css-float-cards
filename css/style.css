@@ -34,52 +34,55 @@ main p:first-child {
 
 
 .container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 1500px;
     height: auto;
     margin: auto;
 }
 
 .box {
-    max-width: 33.3%;
+    max-width: 33%;
     width: 100%;
     float: left;
-    padding: 0 15px;
+    padding: 15px 15px;
+    /* box-shadow: 10px */
 }
 
 .container-member {
     height: 100px;
-    padding: px 5px;
-    float: left;
+    width: 100%;
+    padding: 5px 5px;
+    /* float: left; */
     background-color: #0F0E17;
 }
 
 .description {
     float: left;
     margin-top: 20px;
+    margin: 10px 20px;
+    line-height: 25px;
 }
-
 
 div img:only-of-type {
     height: 100px;
     float: left;
 }
 
-
 h4 {
     color: white;
+    font-size: 14px;
 }
 
-span p {
+div p {
     color: white;
 }
 
-span a {
+div a {
     text-decoration: none;
     color: rgb(74, 187, 243);
 }
 
-span a:hover {
+div a:hover {
     color: rgb(134, 255, 255);
 }
 
